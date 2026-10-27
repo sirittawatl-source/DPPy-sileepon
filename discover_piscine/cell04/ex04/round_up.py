@@ -3,4 +3,4 @@
 import math
 
 rup = float(input("Give me a number : "))
-print(math.ceil(rup))
+print(math.ceil(rup))42

@@ -4,4 +4,4 @@ if Fnum > 25:
 else:
     while Fnum <= 25:
         print (f"Inside the loop, my variable is {Fnum}")
-        number +=1
+        Fnum +=1

@@ -1,18 +1,16 @@
 #!/usr/bin/env python3
-
 import sys
 
 if len(sys.argv) > 1:
     print("none")
-else:
-    i = 0
-    while i <= 10:
-        print(f"Table de {i}:", end=" ")
-        j = 0
-        while j <= 10:
-            if j > 0:
-                print(" ", end="")
-            print(i * j, end="")
-            j += 1
-        print()
-        i += 1
+    sys.exit(0)
+
+i = 0
+while i <= 10:
+    line = "Table de " + str(i) + ":"
+    j = 0
+    while j <= 10:
+        line += " " + str(i * j)
+        j += 1
+    print(line)
+    i += 1

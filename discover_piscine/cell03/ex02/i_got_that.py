@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 
-while True:
-    igt = input("What you gotta say? : ")
-    if igt == "STOP":
-        break
+igt = input("What you gotta say? : ")
 
+while igt != STOP:
     print("I got that! Anything else? : ", end="")

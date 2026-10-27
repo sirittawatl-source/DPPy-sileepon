@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
 
 import sys
-i=0
-j=0
 
-while len(sys.argv) !=1:
+if len(sys.argv) > 1:
     print("none")
-    sys.exit(0)
-
+else:
+    i = 0
     while i <= 10:
-        print("Table de " + str(i) + ":", end ="")
-        j=0
+        print(f"Table de {i}:", end=" ")
+        j = 0
         while j <= 10:
-            print (i*j, end ="" if j < 10 else "\n")
+            if j > 0:
+                print(" ", end="")
+            print(i * j, end="")
             j += 1
-        i +=1 
+        print()
+        i += 1

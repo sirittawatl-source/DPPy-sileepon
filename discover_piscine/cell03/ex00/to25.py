@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 Fnum = (int(input("Enter a number less then 25 : \n")))
 if Fnum > 25:
     print ("Error")

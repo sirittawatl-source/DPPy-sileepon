@@ -8,7 +8,7 @@ if len(sys.argv) != 3:
 else:
     keyword = sys.argv[1]
     string = sys.argv[2]
-    count = len(re.findal(re.escape(keyword), string))
+    count = len(re.findall(re.escape(keyword), string))
 
     if count == 0:
         print("none")

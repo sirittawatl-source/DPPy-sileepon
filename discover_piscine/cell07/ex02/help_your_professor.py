@@ -6,7 +6,7 @@ def st(students):
 class_3B = {
     "marine" : 18,
     "jean" : 15,
-    "coline" : 8;
+    "coline" : 8,
     "luc" : 9
 }
 
@@ -17,5 +17,5 @@ class_3C = {
     "stephanie" : 13
 }
 
-print (f"Average for class 3B : {average(class_3B)}.")
-print (f"Average for class 3C : {average(class_3C)},")
+print (f"Average for class 3B : {st(class_3B)}.")
+print (f"Average for class 3C : {st(class_3C)},")
